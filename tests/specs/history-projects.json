@@ -1,0 +1,20 @@
+[
+  {
+    "name": "История проектов",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Просмотреть прошлые визуализации и проекты"
+            }
+          }
+        ],
+        "send": {
+          "callback": "history:projects"
+        }
+      }
+    ]
+  }
+]
