@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Загрузить netlist",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Загрузить файл netlist в формате CSV/DSL"
+            }
+          }
+        ],
+        "send": {
+          "callback": "upload:netlist"
+        }
+      }
+    ]
+  }
+]
