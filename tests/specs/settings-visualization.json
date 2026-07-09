@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Настройки визуализации",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Выбрать стиль, масштаб и опции отображения"
+            }
+          }
+        ],
+        "send": {
+          "callback": "settings:visualization"
+        }
+      }
+    ]
+  }
+]
